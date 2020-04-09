@@ -4,7 +4,7 @@ public class Palindrome {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
-        System.out.println(check(str));
+        System.out.println(check(str.toLowerCase()));
     }
 
     public static boolean check(String str) {
