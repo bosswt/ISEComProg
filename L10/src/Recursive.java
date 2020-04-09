@@ -17,7 +17,7 @@ public class Recursive {
             return 1;
         if (num[n] != 0)
             return num[n];
-        num[n] = computeF(n - 1) + computeF(n - 2);
+        num[n] = computeF(n - 1) + computeF(n - 2) + computeF(n - 3);
         return num[n];
     }
 }
